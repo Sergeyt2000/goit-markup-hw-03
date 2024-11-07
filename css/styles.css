@@ -84,6 +84,7 @@ a {
   display: flex;
   gap: 40px;
   margin-right: 332px;
+  padding: 24px 0 24px;
 }
 
 .nav-item {
@@ -110,10 +111,10 @@ a {
 .contacts-list {
   display: flex;
   gap: 40px;
+  padding: 24px 0 24px;
 }
 
-.contacts-item {  
-  padding: 24px 0 24px;
+.contacts-item {
 }
 
 .contacts-link {
@@ -275,6 +276,7 @@ a {
 .img-desc {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
+  border-top: none;
 }
 .portfolio-img {
 }
@@ -300,19 +302,17 @@ a {
   padding-bottom: 100px;
 }
 .footer .container {
-  display: flex;
-  flex-direction: column;
+  /* display: flex;
+  flex-direction: column; */
+  
 }
 .footer-logo {
-  display: inline-block;
-  font-family: 'Raleway', sans-serif;
-  font-weight: 700;
+  font-family: 'Raleway', sans-serif;  
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  margin-bottom: 16px;  
 }
 .footer-logo .logo-part {
   color: #f4f4fd;
@@ -323,5 +323,6 @@ a {
   letter-spacing: 0.02em;
   color: #f4f4fd;
   max-width: 264px;
+  margin-top: 16px;
 }
 /* #endregion */
